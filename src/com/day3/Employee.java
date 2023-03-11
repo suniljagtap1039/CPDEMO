@@ -11,9 +11,10 @@ public class Employee {
 		double percentage = 70.7;
 		int totaldays = 20;
 		double hourwages = 4.5 ;
+		boolean ispresnet = false ; //true
 		
-		
-		
+		if(ispresnet) 
+			System.out.println("Student present n class :" + ispresnet);
 		System.out.println("Student Name is :" + Name);
 		System.out.println("Student Roll NO  is :" + rollno);
 		System.out.println("Student Email is :" + Email );
@@ -26,7 +27,8 @@ public class Employee {
 	/*public static void calculatesalary(int totaldays , double hourwages) {
 		double totalsalary = (totaldays*9)*hourwages ;
 		System.out.println("Student salary is :" + totalsalary); */
-
+	
+		
 	public static double calculatesalary(int totaldays , double hourwages) {
 		double totalsalary = (totaldays*9)*hourwages ;
 		//System.out.println("Student salary is :" + totalsalary);
