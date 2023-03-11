@@ -20,7 +20,7 @@ public class Employee {
 		System.out.println("Student marks is :" + marks);
 		System.out.println("Student percentage is :" + percentage);
 		double totalmonthlysalary = calculatesalary( totaldays ,  hourwages);
-		//calculatesalary(20 , 4.5);
+		calculatesalary(20 , 4.5);
 		System.out.println("Student percentage is :" + totalmonthlysalary);
 	}
 	/*public static void calculatesalary(int totaldays , double hourwages) {
